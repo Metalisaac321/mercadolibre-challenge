@@ -1,8 +1,8 @@
 
 [submodule "mercadolibre-challenge-backend"]
-	path = mercadolibre-challenge-backend
+	path = backend
 	url = https://github.com/Metalisaac321/mercadolibre-challenge-backend
 
 [submodule "mercadolibre-challenge-frontend"]
-	path = mercadolibre-challenge-frontend
+	path = frontend
 	url = https://github.com/Metalisaac321/mercadolibre-challenge-frontend
