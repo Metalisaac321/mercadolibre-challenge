@@ -16,10 +16,13 @@ $ git submodule update --init --recursive
 ### Backend
 ```bash
 # Navegar a la carpeta del proyecto
-$ cd mercadolibre-challenge-backend
+$ cd backend
 
 # Instalar paquetes necesarios 
 $ yarn install
+
+# Correr la aplicación
+$ yarn start
 
 # Correr las pruebas
 $ yarn test
@@ -27,16 +30,18 @@ $ yarn test
 
 ### Frontend
 ```bash
-
 # Navegar a la carpeta del proyecto
-$ cd mercadolibre-challenge-frontend
+$ cd frontend
 
 # Instalar paquetes necesarios
 $ yarn install
 
-# Correr las pruebas
+# Correr la aplicación
+$ yarn build && yarn start
+
+# correr las pruebas
 yarn test
 
-# Abrir el navegado
+# Abrir el navegador
 http://localhost:3000
 ```
