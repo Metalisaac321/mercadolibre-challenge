@@ -34,6 +34,9 @@ $ cd mercadolibre-challenge-frontend
 # Instalar paquetes necesarios
 $ yarn install
 
-# correr las pruebas
+# Correr las pruebas
 yarn test
+
+# Abrir el navegado
+http://localhost:3000
 ```
